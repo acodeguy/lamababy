@@ -10,6 +10,12 @@ Once we got to that point we had talked about scaling the idea back a bit so tha
 
 As it stands, we got the A.R. to recognise pre-supplied images and super-impose a red arrow to point at the item it recognised. The arrow follows the image if moved around in front of the camera.
 
+### Our main storyboard in Xcode:
+
+![our main storyboard](screenshots/storyboard.png)
+
+### Two screenshots from the app running on the Simulator:
+
 ![a list of schedules](screenshots/list-of-schedules.png)
 ![evening schedule](screenshots/evening-schedule.png)
 

@@ -346,14 +346,18 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rFH-ak-mRJ">
+                            <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="rFH-ak-mRJ">
                                 <rect key="frame" x="0.0" y="79" width="375" height="588"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="588" id="3UA-CW-oer"/>
+                                </constraints>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1j-Ee-QfQ">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="z1j-Ee-QfQ">
                                 <rect key="frame" x="16" y="31" width="343" height="40"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" red="0.59848010540008545" green="0.72100669145584106" blue="0.59866899251937866" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="40" id="jZ6-QZ-AYj"/>
+                                </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                 <state key="normal" title="Back">
                                     <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -364,6 +368,14 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="rFH-ak-mRJ" firstAttribute="bottom" secondItem="6F3-BH-oeU" secondAttribute="bottom" id="3at-Yh-KaT"/>
+                            <constraint firstItem="rFH-ak-mRJ" firstAttribute="top" secondItem="z1j-Ee-QfQ" secondAttribute="bottom" constant="8" id="8zc-RG-hEA"/>
+                            <constraint firstItem="6F3-BH-oeU" firstAttribute="trailing" secondItem="z1j-Ee-QfQ" secondAttribute="trailing" constant="16" id="ba5-T6-SL0"/>
+                            <constraint firstItem="rFH-ak-mRJ" firstAttribute="trailing" secondItem="6F3-BH-oeU" secondAttribute="trailing" id="c3f-eb-DmK"/>
+                            <constraint firstItem="z1j-Ee-QfQ" firstAttribute="leading" secondItem="6F3-BH-oeU" secondAttribute="leading" constant="16" id="hlH-AG-cAL"/>
+                            <constraint firstItem="rFH-ak-mRJ" firstAttribute="leading" secondItem="6F3-BH-oeU" secondAttribute="leading" id="vkW-Es-QhE"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6F3-BH-oeU"/>
                     </view>
                     <connections>
