@@ -45,11 +45,9 @@ As a parent of a child
 So I could use an app
 I would like to be able to share the schedule with a carer.
 
-
 As a carer of a child
 So I could use an app
 I would like to be able to enter a code and access an app.
-
 
 As a carer of a child
 So I could use an app
