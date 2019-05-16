@@ -25,7 +25,7 @@ As it stands, we got the A.R. to recognise pre-supplied images and super-impose 
 - Apple ARKit 2
 
 ## Using the Code
-- Clone this repo: ```git clone git@github.com:mmar8/lamababy.git```
+- Clone this repo: ```git clone git@github.com:acodeguy/lamababy.git```
 - Open the ```LamaBaby.xcodeproj``` workspace in Xcode
 
 ## Testing
